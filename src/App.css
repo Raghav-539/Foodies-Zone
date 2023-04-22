@@ -1,0 +1,27 @@
+
+/* Login Form  */
+
+.login-form{
+  background-image: url(../public/images/img7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+}
+
+/* Registeration Form */
+
+.register-form{
+  background-image: url(../public/images/img7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+}
+
+/* Footer */
+
+#footer{
+  background-image: url(../public/images/img7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+}

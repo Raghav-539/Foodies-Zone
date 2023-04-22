@@ -1,0 +1,27 @@
+// logic of adding item into cart
+// it will be called when user will click on add to cart button.
+// added item will go to reducer 
+
+export const ADD = (item) => {
+    return {
+        type: "ADD_CART",
+        payload: item
+    }
+}
+
+// remove items 
+export const DLT = (id) => {
+    return {
+        type: "RMV_CART",
+        payload: id
+    }
+}
+
+// remove individual item
+
+export const REMOVE = (iteam) => {
+    return {
+        type: "RMV_ONE",
+        payload: iteam
+    }
+}
